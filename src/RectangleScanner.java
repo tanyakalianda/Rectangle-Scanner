@@ -28,7 +28,7 @@ public class RectangleScanner
 		System.out.printf("Perimeter: %.2f", perimeter);
 		System.out.println();
 		
-		Double diagonal = Math.sqrt(length * length + width * width);
+		double diagonal = Math.sqrt(length * length + width * width);
 		System.out.printf("Diagonal Length: %.2f", diagonal);
 		System.out.println();
 	}
